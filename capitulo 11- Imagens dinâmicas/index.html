@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Li..ico" type="image/x-icon">
+    <title>Imagens Dinâmicas</title>
+</head>
+<body>
+    <p>Tente abrir esse site em vários dispositivos  diferentes <br>ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens/foto-m.png" type="image/png">
+
+   <img src="imagens/foto-g.png" alt="Imagem Flexível">
+    </picture>
+    <h2>Áudio</h2>
+    <p>Reproduzir audios em HTML5</p>
+    <audio src="midia/Outlaw's Farewell (part II) - Reed Mathis.mp3" controls autoplay></audio>
+    
+<h2>Vídeos</h2>
+<p>Inserindo vídeos  hospedados localmente</p>
+<video width="400" poster="imagens/thumb.png" controls autoplay loop ><source src="midia/pexels-(Original).mp4" type="video/mp4"><source src="midia/pexels-jonathan-cooper-9258868 (Original).mp4" type="video/mp4">
+    <p>Seu navegador não tem compatibilidade com reprodução de video.</p>
+</video>
+
+<h1>Inserindo videos do youtube</h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ryOt1kRNBek?si=80f5RkrU9Ez2wSFN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+</body>
+</html>
