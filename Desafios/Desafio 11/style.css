@@ -10,13 +10,15 @@
     
 }
 
-{
+ * {
     margin: 0px;
     padding: 0px;
-        }
+    }
         
     html, body {
         min-height: 100vh;
+        /* vh referente e altura
+        vw referente a largura*/
         background-color: darkgray;
         font-family: var(--fonte1);
     }
@@ -63,9 +65,7 @@
         background-color: white;
         color: black;
     }
-
    
-
     section.imagem {
         display: inline-block;
         padding: 5px;
